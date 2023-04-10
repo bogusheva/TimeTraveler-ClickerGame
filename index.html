@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Truculenta&family=Yesteryear&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Time Traveler</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <header>
+        <h1>Time Traveler Clicker Game</h1>
+        <div class="user-statistics">
+          <div class="user-login-holder">
+            <span>Name:</span>
+            <span class="user-login"></span>
+          </div>
+          <div class="user-level-holder">
+            <span>Level:</span>
+            <span class="user-level"></span>
+          </div>
+          <div class="user-scores-holder">
+            <span>Total:</span>
+            <span class="user-scores"></span>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="registration-window modal-window">
+          <h2>Register</h2>
+          <form class="registration-form">
+            <label for="user-name">Name</label>
+            <input id="user-name" type="text" required />
+            <label for="user-email">Email</label>
+            <input id="user-email" type="email" required />
+            <span class="registration-warning"></span>
+            <input type="submit" value="Submit" class="button" />
+          </form>
+        </div>
+        <div
+          class="info-card-window modal-window"
+          style="background-image: url(./src/images/window.jpg)"
+        >
+          <h2>character</h2>
+          <h3>data</h3>
+          <h4>country</h4>
+          <p>short description</p>
+          <button class="button info-card-button">OK</button>
+        </div>
+        <div class="next-level-window modal-window">
+          <div class="next-level-message">
+            <p>
+              The most wicked and malevolent villain of all times has set a new
+              plan in motion to conquer the world. He has discovered the ability
+              to travel through time and is using this power to gather all the
+              villains from history to join his cause.
+            </p>
+            <p>
+              You are the Time Traveler, a brave warrior who has the ability to
+              travel through time and put an end to the evil plan. Your mission
+              is to find and eliminate all the villains from history by clicking
+              on them, with each click taking away a point from their health. So
+              they won't help the most evil villain in out time.
+            </p>
+            <p>
+              The fate of the world is in your hands. The battle between good
+              and evil has intensified, and only you can prevent the ultimate
+              victory of the forces of darkness. Are you ready to save the
+              world?
+            </p>
+          </div>
+
+          <button class="button next-level-button">OK</button>
+        </div>
+        <div class="villain-container">
+          <div class="villain-button"></div>
+          <div class="enemy-statistics"><span class="enemy-hp"></span></div>
+        </div>
+      </main>
+      <footer>
+        <span>Game is designed by Olena Bogusheva</span>
+        <span>Code on <a href="#">GitHub</a></span>
+      </footer>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>

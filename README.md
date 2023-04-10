@@ -1,7 +1,7 @@
 # Time Traveler Clicker Game
 
 This is my test case for TechFabric.
-You can see it [here](time-traveler.netlify.app).
+You can see it [here](https://time-traveler.netlify.app/).
 
 ## Game (test) requirements
 
@@ -38,7 +38,7 @@ Task is to create a Clicker game using JavaScript with the following requirement
 1. Copy from github.com using git clone https://github.com/bogusheva/TimeTraveler-ClickerGame.git
 2. Open index.html in the browser.
    or
-   You can play the game [here](time-traveler.netlify.app)
+   You can play the game [here](https://time-traveler.netlify.app/)
 
 ## License
 

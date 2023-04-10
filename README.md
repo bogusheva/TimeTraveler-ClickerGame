@@ -1,6 +1,7 @@
 # Time Traveler Clicker Game
 
 This is my test case for TechFabric.
+You can see it [here](time-traveler.netlify.app).
 
 ## Game (test) requirements
 
@@ -25,13 +26,19 @@ Task is to create a Clicker game using JavaScript with the following requirement
 ## Features
 
 1. Modal window with authorization
-2. Form validation
+2. Form validation with RegExp.
 3. Changing villains/themes after completing level.
+4. Dynamic HP-meter.
+5. Due to opacity changing after user clicks the enemy is literally eliminated from our world
+6. Saving data to localStorage after every passed level.
+7. 10 different levels with 10 interesting story about the most famous villains.
 
 ## Installation
 
-1. Copy from github.com using git clone ...
+1. Copy from github.com using git clone https://github.com/bogusheva/TimeTraveler-ClickerGame.git
 2. Open index.html in the browser.
+   or
+   You can play the game [here](time-traveler.netlify.app)
 
 ## License
 

@@ -223,6 +223,9 @@ input[type="email"] {
   .registration-window {
     min-width: 30%;
   }
+  .registration-warning {
+    font-size: 18px;
+  }
   .user-statistics > * {
     min-width: 5rem;
   }

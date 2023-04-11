@@ -161,7 +161,7 @@ window.addEventListener("DOMContentLoaded", () => {
       nextLevelWindow.style.display = "none";
       startGame();
     });
-  } else if (registrationForm) {
+  } else {
     //if user didn't register previously
     registrationForm.addEventListener("submit", (e) => {
       e.preventDefault();
